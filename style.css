@@ -18,6 +18,15 @@ a:hover {
     cursor: pointer;
 }
 
+div {
+    clear: both;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -27,18 +36,31 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
-.bloc {
-    width: 100%;
-    clear: both;
-    background: 50% 50% no-repeat;
-    padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
+.logo-img {
+    width: 50%;
+    font-size: 100px;
+    color: #000000;
+}
+.site-navigation {
+
 }
 
+.logo-presentation {
+    width: 15%;
+    margin: auto;
+    text-align: center;
+}
+/* Bloc-2 */
+.bloc-2-services {
+    text-align: center;
+}
+.text-services {
+    margin: 1em auto 1em auto;
+    padding: 0px 40px 0px 40px;
+}
+.articles-services {
+    margin: 1em auto 2em auto;
+}
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -56,25 +78,7 @@ a:hover {
     padding: 20px 50px;
 }
 
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
-}
 
-.bg-repeat {
-    background: repeat;
-}
 
 .bg-t-edge {
     background: top no-repeat;
@@ -894,17 +898,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
-    }
+
     .b-parallax {
         background-attachment: scroll;
     }
@@ -977,39 +971,7 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-    .bloc-xxl,
-    .bloc-xl,
-    .bloc-lg {
-        padding: 40px 0;
-    }
-    .bloc-sm,
-    .bloc-md {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .bloc-tile-2 .container,
-    .bloc-tile-3 .container,
-    .bloc-tile-4 .container,
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .a-block {
-        padding: 0 10px;
-    }
-    .btn-dwn {
-        display: none;
-    }
-    .voffset {
-        margin-top: 5px;
-    }
-    .voffset-md {
-        margin-top: 20px;
-    }
-    .voffset-lg {
-        margin-top: 30px;
-    }
+
     form {
         padding: 5px;
     }
