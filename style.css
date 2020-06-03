@@ -30,15 +30,12 @@ div {
     position: relative;
 }
 
-<<<<<<< HEAD
 .container {
     padding-left: 0;
     padding-right: 0;
 }
 
 /* Loading */
-=======
->>>>>>> master
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -48,7 +45,6 @@ div {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
-<<<<<<< HEAD
 /* Navigation */
 .site-navigation {
     color: #000000;
@@ -86,36 +82,6 @@ div {
 }
 .articles-services {
     margin: 4em auto 3em auto;
-=======
-.logo-img {
-    width: 50%;
-    font-size: 100px;
-    color: #000000;
-}
-.site-navigation {
-
-}
-
-.logo-presentation {
-    width: 15%;
-    margin: auto;
-    text-align: center;
-}
-/* Bloc-2 */
-.bloc-2-services {
-    text-align: center;
-}
-.text-services {
-    margin: 1em auto 1em auto;
-    padding: 0px 40px 0px 40px;
-}
-.articles-services {
-    margin: 1em auto 2em auto;
-}
-.bloc .container {
-    padding-left: 0;
-    padding-right: 0;
->>>>>>> master
 }
 
 
