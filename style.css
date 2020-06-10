@@ -124,16 +124,23 @@ div {
 
 
 /* Navigation */
+.container .navigation-top {
+}
 
 .navbar {
     line-height: 4em;
 }
 
 .logo-img {
-    width: 50%;
+    width: 200px;
     font-size: 100px;
     text-align: left;
     margin: 0 100px 0 0;
+}
+
+.navbar-collapse { 
+    text-align: right;
+    margin: auto 0px auto 0 !important;
 }
 
 /* Bloc-1 */
@@ -317,7 +324,7 @@ div {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
     text-align: center;
 }
 
@@ -325,9 +332,9 @@ a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
-    width: 50px;
-    height: 50px;
-    margin-left: -25px;
+    width: 1.5em;
+    height: 1.5em;
+    margin: auto 40%;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -393,7 +400,8 @@ footer {
     padding: 3em;
 }
 .icons-footer {
-    margin: 1em 0 3em 0;
+    margin: 3em 0 3em 0;
+
 }
 .social {
     color: #FFF !important;
@@ -503,13 +511,7 @@ p {
 
 /* Media queries */
 @media (max-width: 992px) and (min-width: 768px) {
-    .navbar .nav {
-        max-width: 80%
-    }
-    .nav-center.navbar .nav {
-        max-width: 100%
-    }
-}
+
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
@@ -546,45 +548,15 @@ p {
     .b-parallax {
         background-attachment: scroll;
     }
-    .navbar .nav {
-        padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
-    }
-    .navbar.row {
-        margin-left: 0;
-        margin-right: 0;
-    }
 
-    #hero-bloc .navbar .nav {
+    #hero-bloc {
         background: rgba(0, 0, 0, .8);
     }
 
     .hero {
         padding: 50px 0;
     }
-    .hero-nav {
-        left: -1px;
-        right: -1px;
-    }
-    .navbar-collapse {
-        padding: 0;
-        overflow-x: hidden;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    }
-    .navbar-brand img {
-        max-height: 40px;
-        width: auto;
-    }
-    .nav-invert .navbar-header {
-        float: none;
-        width: 100%;
-    }
-    .nav-invert .navbar-toggle {
-        float: left;
-        margin-left: 10px;
-    }
+    
 
     form {
         padding: 5px;
