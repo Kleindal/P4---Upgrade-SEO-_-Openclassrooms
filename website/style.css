@@ -1,12 +1,13 @@
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 body {margin: 0;padding: 0;background: #FFF;overflow-x: hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:"helvetica";font-weight:400;color:#575757!important;}
 a{text-decoration:none;color:#575757!important;}a:hover{text-decoration:none;cursor:pointer;}button{transition: all .3s ease-in-out;outline: none!important;}.btn {border-radius: 40px;box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, .15);background-color: #F3976C;}ul, li {margin: 0 !important;list-style: none;}.t-color {color: #F3976C!important;}
-#bloc-1-hero,#bloc-2-services,#bloc-3-what-i-do,#bloc-4-portfolio,#bloc-5-cta,#bloc-6{text-align: center;}#bloc-1-hero,#bloc-3-what-i-do,#bloc-6{padding-top:100px!important;padding-bottom:100px!important;}
+#bloc-1-hero,#bloc-2-services,#bloc-3-what-i-do,#bloc-4-portfolio,#bloc-5-cta,#bloc-6,#bloc-7,#bloc-8{text-align: center;}#bloc-1-hero,#bloc-3-what-i-do,#bloc-6{padding-top:100px!important;padding-bottom:100px!important;}
 .bloc {width:100%;clear:both;background: 50% 50% no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;position:relative;}
 /* bloc-0 */.bloc-0{padding:1.5em;}#logo{vertical-align:middle;}
 /* bloc-1 */#bloc-1-hero h1{font-size: 32px;}
 /* bloc-2 */.icon-2{color:#364577!important;border-color:#364577!important;}.text-2{padding-bottom:3em!important;}#bloc-2-services{padding-top:3.5em!important;padding-bottom:4em!important;}
 /* bloc-3 */.text-3{color:white;}.boxtext-3{background-color: rgba(165, 147, 99, 0.7);padding: 40px;}
+/* bloc-4 */.box-4{text-align:center!important;padding:1em;}
 /* bloc-5 */.space-comments{color:white!important;padding:3em;}#bloc-5-cta{padding-top:2.5em!important;}
 /* bloc-6 */#bloc-6{background-color: #F3976C!important;color:white!important;line-height: 5em!important;}.text-6{padding:0.5em;}
 /* bloc-7 */#bloc-7{padding-top:70px!important;padding-bottom:39px;}.form-control{border: #575757 1px solid !important;}.form-control:focus{border: #F3976C 1px solid!important;}
